@@ -1,26 +1,19 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import Header from '../components/Header'
+import HomePage from './Home'
 
 function App() {
 
-  // const backgroundStyle = {
-  //   backgroundImage: `url(/background.jpg)`,
-  //   backgroundSize: 'cover',
-  //   backgroundPosition: 'center',
-  //   height: '100vh',
-  // };
-
   return (
-    <div className='background-style'>
-      <div className="App">
-        <div className="navbar">
-          <ul>
-            <li>Home</li>
-            <li>Blog</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <>
+    <Routes>
+      <Route path='/' element={<Header/>}>
+        <Route index element={<HomePage/>}/>
+      </Route>
+    </Routes>
+    </>
   )
 }
 

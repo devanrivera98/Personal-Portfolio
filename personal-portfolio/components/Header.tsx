@@ -6,8 +6,16 @@ export default function Header() {
       <div>
         <div className="navbar">
           <ul>
-            <li>Home</li>
-            <li>Blog</li>
+            <div>
+              <h1>DevanCode</h1>
+            </div>
+            <div>
+              <li>Home</li>
+              <li>About Me</li>
+              <li>Portfolio</li>
+              <li>Contact</li>
+              <button>Download CV</button>
+            </div>
           </ul>
         </div>
       </div>

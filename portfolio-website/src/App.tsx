@@ -1,19 +1,18 @@
-
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Header from '../components/Header'
+import HomePage from './HomePage'
 
 function App() {
 
 
   return (
     <>
-    <div>
-      <div className="navbar">
-        <ul>
-          <li>Home</li>
-          <li>Blog</li>
-        </ul>
-      </div>
-    </div>
+      <Routes>
+        <Route path='/' element={<Header />}>
+          <Route index element={<HomePage />} />
+        </Route>
+      </Routes>
     </>
   )
 }

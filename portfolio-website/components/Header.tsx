@@ -1,24 +1,40 @@
 
 import { Outlet } from "react-router-dom"
+import { useState } from "react"
 
 
 export default function Header() {
 
+  const [isOpen,setIsOpen] = useState(false);
+
+  const handleNavToggleClick = () =>  {
+    setIsOpen(!isOpen)
+    console.log('clicked')
+  }
+
   return (
     <>
-      <header className="background-style">
-        <div className="navbar flex items-center justify-between">
-          <ul className="flex items-center space-x-4">
-            <li>Devan</li>
-            <li className="hover:bg-sky-600 hover:underline hover:underline-offset-7">Home</li>
-            <li>Portfolio</li>
-            <li>About Me</li>
-            <li>Contact</li>
-          </ul>
-          <button className="bg-blue-600 rounded-full p-2">Download CV</button>
+      <header>
+        <div className="container">
+          <div>
+            <h2 className="text-2xl logo">DevPort</h2>
+            <div onClick={handleNavToggleClick} className="nav-toggle" id="navToggle">
+              <img className={isOpen ? "hidden" : ""} src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg" alt="hamburger-menu" />
+              <img className={isOpen ? "" : "hidden"} src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg" alt="hamburger-menu" />
+            </div>
+          </div>
+          <nav className={isOpen ? "open" : ""}>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Download CV</a></li>
+            </ul>
+          </nav>
         </div>
-        <Outlet />
       </header>
+      <Outlet />
     </>
   )
 }

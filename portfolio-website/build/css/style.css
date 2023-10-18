@@ -596,6 +596,10 @@ video {
   max-width: none;
 }
 
+.resize {
+  resize: both;
+}
+
 .items-center {
   align-items: center;
 }
@@ -669,4 +673,11 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+@media (min-width: 1024px) {
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }

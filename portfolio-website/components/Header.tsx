@@ -35,10 +35,10 @@ export default function Header() {
 
   return (
     <>
-      <header>
+      <header className="header-background">
         <div className="container">
           <div>
-            <h2 className="text-2xl logo">DevPort</h2>
+            <h2 className="text-2xl logo hover:underline">DevPort</h2>
             <div onClick={handleNavToggleClick} className="nav-toggle" id="navToggle">
               <img id="hamburger" className={isOpen ? "hidden" : ""} src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg" alt="hamburger-menu" />
               <img className={isOpen ? "" : "hidden"} src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg" alt="hamburger-menu" />
@@ -46,11 +46,11 @@ export default function Header() {
           </div>
           <nav className={isOpen ? "open" : ""}>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Download CV</a></li>
+              <li><a className="hover:underline" href="#">Home</a></li>
+              <li><a className="hover:underline" href="#">About</a></li>
+              <li><a className="hover:underline" href="#">Projects</a></li>
+              <li><a className="hover:underline" href="#">Contact</a></li>
+              <li><a className="hover:underline" href="#">Download CV</a></li>
             </ul>
           </nav>
         </div>

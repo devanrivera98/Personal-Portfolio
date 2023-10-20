@@ -6,24 +6,48 @@
 }
 
 header {
-  background-color: rgb(50, 47, 47);
+  /* background-color: rgb(50, 47, 47); */
+  background-color: white;
+  color: black;
+}
+
+.header-background {
+    /* background-image: url(/cool-background.png); */
+    color: black;
 }
 
 .background-style {
-  background-image: url(/background.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+  background-image: url(/cool-background.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    /* height: 100vh; */
+    color: white;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  /* color: white; */
   max-width: 60rem;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.background {
+
+  position:
+    absolute;
+
+  display:
+    block;
+
+  top: 0;
+
+  left: 0;
+
+  z-index: 0;
 }
 
 ul {
@@ -36,7 +60,7 @@ li {
 }
 
 li a {
-  color: white
+  color: black
 }
 
 .nav-toggle {

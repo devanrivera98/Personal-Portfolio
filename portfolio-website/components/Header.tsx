@@ -5,9 +5,9 @@ import { useState, useEffect } from "react"
 
 export default function Header() {
 
-  const [isOpen,setIsOpen] = useState(false);
+  const [isOpen,setIsOpen] = useState<boolean>(false);
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
 
   const handleNavToggleClick = () => {
     setIsOpen(!isOpen);

@@ -11,7 +11,7 @@ export default function HomePage() {
           <h1 className="text-4xl">Hello, I'm Devan Rivera</h1>
           <p className="pt-5 px-4 text-2xl">A Software Engineer from the vibrant city of Los Angeles, California, fueled by a boundless passion for creating innovative solutions.</p>
           <div className="flex justify-center pt-5">
-            <button className="px-2 bg-blue-500 hover:bg-blue-700 rounded">Download CV</button>
+            <button className="px-2 bg-maroon hover:bg-red-800 rounded">Download CV</button>
             <p className="px-2">LinkedIn</p>
             <p className="px-2">Github</p>
           </div>

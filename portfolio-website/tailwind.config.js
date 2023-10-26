@@ -14,6 +14,11 @@ export default {
         'xl': '1280px',
         '2xl': '1536px',
       },
+      colors: {
+        maroon: '#7A2048',
+        lightBlue: '#408EC6',
+        darkBlue: '#1E2761',
+      }
     },
   },
   plugins: [],

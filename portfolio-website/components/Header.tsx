@@ -35,7 +35,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="header-background">
+      <header className="header-background bg-darkBlue text-lightBlue">
         <div className="container">
           <div>
             <h2 className="text-2xl logo hover:underline">DevPort</h2>

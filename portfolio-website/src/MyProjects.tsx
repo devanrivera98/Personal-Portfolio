@@ -24,7 +24,7 @@ export default function MyProjects() {
         <div className="h-52 md:h-64">
             <img className="w-full h-full object-cover" alt="hollywood-photo" src="hollywood-image.png" />
         </div>
-        <div className="px-2">
+        <div className="px-2 text-white">
           <div className=" py-3 flex justify-center">
             <a href="https://devanrivera98.github.io/WatchList/" target="_blank" rel="noopener noreferrer">
             <button className="bg-maroon hover:bg-red-800 rounded p-1">Link to Delopyment</button>

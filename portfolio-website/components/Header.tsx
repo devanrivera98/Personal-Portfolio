@@ -5,9 +5,9 @@ import { useState, useEffect } from "react"
 
 export default function Header() {
 
-  const [isOpen,setIsOpen] = useState(false);
+  const [isOpen,setIsOpen] = useState<boolean>(false);
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
 
   const handleNavToggleClick = () => {
     setIsOpen(!isOpen);
@@ -28,14 +28,14 @@ export default function Header() {
 
   useEffect(() => {
     // Remove the "open" class when the window size is less than 720px
-    if (windowWidth > 720) {
+    if (windowWidth > 768) {
       setIsOpen(false);
     }
   }, [windowWidth]);
 
   return (
     <>
-      <header className="header-background">
+      <header className="header-background bg-darkBlue text-lightBlue">
         <div className="container">
           <div>
             <h2 className="text-2xl logo hover:underline">DevPort</h2>

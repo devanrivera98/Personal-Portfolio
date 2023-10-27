@@ -5,7 +5,7 @@ export default function HomePage() {
 
 
   return (
-    <div>
+    <div id="home">
       <div className="background-style text-center pt-5 mx-auto flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 md:pr-8">
           <h1 className="text-4xl">Hello, I'm Devan Rivera</h1>

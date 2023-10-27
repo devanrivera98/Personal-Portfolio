@@ -1,6 +1,6 @@
 export default function MyProjects() {
   return (
-    <div className="bg-darkBlue text-white">
+    <div id="projects" className="bg-darkBlue text-white">
     <div >
       <h1 className="text-3xl text-center py-5">My Projects</h1>
     </div>

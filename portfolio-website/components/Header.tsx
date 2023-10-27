@@ -28,7 +28,7 @@ export default function Header() {
 
   useEffect(() => {
     // Remove the "open" class when the window size is less than 720px
-    if (windowWidth > 720) {
+    if (windowWidth > 768) {
       setIsOpen(false);
     }
   }, [windowWidth]);

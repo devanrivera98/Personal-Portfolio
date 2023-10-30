@@ -131,3 +131,13 @@ li {
     padding: 0;
   }
 }
+
+@media (max-height: 667px) and (max-width: 425px) {
+  .profile-image {
+    height: 30vh;
+  }
+
+  .background-style {
+    height: 80vh;
+  }
+}

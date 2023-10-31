@@ -572,14 +572,9 @@ video {
   margin: 1.25rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mx-9 {
-  margin-left: 2.25rem;
-  margin-right: 2.25rem;
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .mx-2 {
@@ -587,9 +582,14 @@ video {
   margin-right: 0.5rem;
 }
 
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
+.mx-9 {
+  margin-left: 2.25rem;
+  margin-right: 2.25rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex {
@@ -608,8 +608,8 @@ video {
   height: 100%;
 }
 
-.h-12 {
-  height: 3rem;
+.w-12 {
+  width: 3rem;
 }
 
 .w-3\/4 {
@@ -618,30 +618,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-64 {
-  width: 16rem;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-36 {
-  width: 9rem;
 }
 
 .resize {
@@ -664,10 +640,6 @@ video {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .justify-evenly {
   justify-content: space-evenly;
 }
@@ -685,9 +657,19 @@ video {
   border-color: rgb(191 219 254 / var(--tw-border-opacity));
 }
 
-.bg-blue-500 {
+.bg-darkBlue {
   --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+  background-color: rgb(30 39 97 / var(--tw-bg-opacity));
+}
+
+.bg-lightBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 142 198 / var(--tw-bg-opacity));
+}
+
+.bg-maroon {
+  --tw-bg-opacity: 1;
+  background-color: rgb(122 32 72 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -695,12 +677,12 @@ video {
      object-fit: cover;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-2 {
@@ -718,14 +700,14 @@ video {
   padding-right: 2.25rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pt-5 {
@@ -751,14 +733,19 @@ video {
   line-height: 2.5rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lightBlue {
+  --tw-text-opacity: 1;
+  color: rgb(64 142 198 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:bg-blue-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-red-800:hover {

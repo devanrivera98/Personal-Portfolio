@@ -91,6 +91,10 @@ li {
   display: none
 }
 
+.about-text {
+  font-size: 20px;
+}
+
 @media all and (max-width: 768px) {
   .container {
     flex-direction: column;

@@ -11,7 +11,7 @@ export default function HomePage() {
           <h1 className="text-4xl">Hello, I'm Devan Rivera</h1>
           <p className="pt-5 px-4 text-2xl">A Software Engineer from the vibrant city of Los Angeles, California, fueled by a boundless passion for creating innovative solutions.</p>
           <div className="flex justify-center pt-5 w-full">
-            <button className="px-2 bg-maroon hover:bg-red-800 rounded">Download CV</button>
+            <button className="px-2 border-2 border-lightGreen hover:bg-green-400 hover:text-white rounded text-lightGreen">Download CV</button>
             <div className="flex w-12 mx-2">
               {/* <p className="px-2">LinkedIn</p> */}
               <img className="rounded" src="linkedin-icon.jpg" alt="linkedin-icon" />

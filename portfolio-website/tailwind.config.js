@@ -16,7 +16,8 @@ export default {
       },
       colors: {
         maroon: '#7A2048',
-        lightBlue: '#408EC6',
+        lightBlue: 'rgb(167,176,227)',
+        lightGreen: 'rgb(104,195,200)',
         darkBlue: '#1E2761',
       }
     },

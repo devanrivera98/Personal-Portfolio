@@ -56,7 +56,7 @@ export default function Header() {
               <li>
                 <Link onClick={handleMobileToggleClick} to="home" spy={true}
                 smooth={true}
-                offset={50}
+                // offset={50}
                 duration={500}
                 className="hover:underline" href="#">Home
                 </Link>

@@ -14,6 +14,12 @@ export default function Header() {
     setIsOpen(!isOpen);
   };
 
+  const handleMobileToggleClick = () => {
+    if (windowWidth < 768) {
+      setIsOpen(!isOpen)
+    }
+  }
+
   const handleResize = () => {
     setWindowWidth(window.innerWidth);
   };
@@ -48,7 +54,7 @@ export default function Header() {
           <nav className={isOpen ? "open" : ""}>
             <ul>
               <li>
-                <Link to="home" spy={true}
+                <Link onClick={handleMobileToggleClick} to="home" spy={true}
                 smooth={true}
                 offset={50}
                 duration={500}
@@ -56,28 +62,28 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link to="about" spy={true}
+                <Link onClick={handleMobileToggleClick} to="about" spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500} className="hover:underline" href="#">About
                 </Link>
               </li>
               <li>
-                <Link to="projects" spy={true}
+                <Link onClick={handleMobileToggleClick} to="projects" spy={true}
                 smooth={true}
                 offset={50}
                 duration={500} className="hover:underline" href="#">Projects
                 </Link>
               </li>
               <li>
-                <Link to="contact" spy={true}
+                <Link onClick={handleMobileToggleClick} to="contact" spy={true}
                 smooth={true}
                 offset={50}
                 duration={500} className="hover:underline" href="#">Contact
                 </Link>
               </li>
               <li>
-                <Link to="/" spy={true}
+                <Link onClick={handleMobileToggleClick} to="/" spy={true}
                 smooth={true}
                 offset={50}
                 duration={500} className="hover:underline" href="#">Download CV

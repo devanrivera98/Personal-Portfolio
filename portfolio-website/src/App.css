@@ -20,7 +20,7 @@ header {
 }
 
 .custom-homepage {
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 
 .background-style {
@@ -34,10 +34,6 @@ header {
 
 .profile-image {
   height: 50vh;
-}
-
-.linkedin {
-  width: 100px;
 }
 
 .profile-image img {
@@ -80,10 +76,6 @@ li {
   padding: 0 1.25rem
 }
 
-/* li a {
-  color: black
-} */
-
 .nav-toggle {
   display: none;
   position: absolute;
@@ -107,6 +99,10 @@ li {
   .container {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .custom-homepage {
+    margin-top: 10vh;
   }
 
   nav {
@@ -150,6 +146,14 @@ li {
 @media (max-height: 667px) and (max-width: 425px) {
   .profile-image {
     height: 30vh;
+  }
+
+  .custom-homepage {
+    margin-top: 5vh;
+  }
+
+  .homepage-icons {
+    padding-bottom: 1rem;
   }
 
   /* .homepage-icons {

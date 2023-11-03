@@ -8,7 +8,8 @@ export default function ContactForm () {
   console.log(name, email, message)
   return (
     <div>
-      <form name="contact v1" method="post" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact"></input>
         <div className="input">
           <label htmlFor="name">Name</label>
           <input type="text" id="name" name="name" placeholder="Your Name" onChange={(e) => setName(e.target.value)} />

@@ -1,4 +1,5 @@
 import AboutSection from "./AboutSection"
+import ContactForm from "./ContactForm"
 import MyProjects from "./MyProjects"
 export default function HomePage() {
 
@@ -34,6 +35,7 @@ export default function HomePage() {
       </div>
       <AboutSection/>
       <MyProjects/>
+      <ContactForm/>
     </div>
   )
 }

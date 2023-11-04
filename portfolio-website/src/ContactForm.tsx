@@ -8,7 +8,7 @@ export default function ContactForm () {
   console.log(name, email, message)
   return (
     <div>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="react-contact-form" method="POST" >
         <input type="hidden" name="form-name" value="contact"></input>
         <div className="input">
           <label htmlFor="name">Name</label>
@@ -16,7 +16,7 @@ export default function ContactForm () {
         </div>
         <div className="input">
           <label htmlFor="email">Email</label>
-          <input type="text" id="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
+          <input type="text" id="email" name="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
         </div>
         <div className="input">
           <label htmlFor="message">Message</label>

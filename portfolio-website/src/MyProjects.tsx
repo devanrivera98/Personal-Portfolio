@@ -5,7 +5,7 @@ export default function MyProjects() {
       <h1 className="text-3xl text-center py-5">My Projects</h1>
     </div>
     <div className="flex flex-wrap justify-evenly">
-      <div className="sm:w-1/3 border-4 border-blue-200 m-5 rounded">
+      <div className="md:w-1/3 border-4 border-blue-200 m-5 rounded">
           <h2 className="text-2xl pl-1 bg-lightBlue">BookPalace</h2>
           <div className="h-52 md:h-64">
             <img className="w-full h-full object-cover" src="book-store-photo.png" />
@@ -16,10 +16,10 @@ export default function MyProjects() {
                 <button className="border border-lightGreen hover:bg-green-400 hover:text-white text-lightGreen rounded p-1">Link to Delopyment</button>
               </a>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Bookplace is a feature-rich, full-stack application I developed using Bootstrap for a sleek front-end, React for dynamic user interfaces, Express for robust back-end functionality, and PostgreSQL for efficient data management. This platform empowers users to seamlessly explore an extensive library of books, utilizing a sophisticated search engine to discover related products effortlessly. Adding to the experience, Bookplace includes a friendly review and rating system. This way, users can easily navigate and make informed choices, checking out books based on valuable community feedback. Users can enhance their shopping experience by adding items to their cart or saving them to a wishlist for future consideration. The wishlist feature allows users to manage their selections, offering the flexibility to delete items or seamlessly transfer them to the cart. This project aimed to showcase not only a seamless online store but also the integration of cutting-edge technologies to provide users with a responsive and enjoyable platform for discovering and acquiring their favorite reads.</p>
         </div>
       </div>
-      <div className="sm:w-1/3 border-4 border-blue-200 m-5 rounded">
+      <div className="md:w-1/3 border-4 border-blue-200 m-5 rounded">
         <h2 className="text-2xl pl-1 bg-lightBlue">WatchList</h2>
         <div className="h-52 md:h-64">
             <img className="w-full h-full object-cover" alt="hollywood-photo" src="hollywood-image.png" />
@@ -30,7 +30,7 @@ export default function MyProjects() {
                 <button className="border border-lightGreen hover:bg-green-400 hover:text-white text-lightGreen  rounded p-1">Link to Delopyment</button>
             </a>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>WatchList is a dynamic front-end application that showcases my adept use of CSS classes to create an engaging and personalized layout. By seamlessly integrating JavaScript and harnessing the capabilities of local storage, WatchList offers users a seamless experience in exploring a meticulously curated catalog of movies tailored to their preferences. Users can effortlessly search through the movie catalog, uncovering crucial details such as ratings, duration, and average critic scores. The user-friendly interface allows enthusiasts to dive deep into comprehensive movie descriptions. If a particular movie captures their interest, they can easily add it to their personalized list, thanks to the interactive features powered by JavaScript. The core objective of WatchList is to provide movie enthusiasts with a streamlined and user-friendly navigation experience. JavaScript plays a key role in enhancing the interactivity and responsiveness of the application, making the exploration of the movie catalog a dynamic and engaging experience.</p>
         </div>
       </div>
     </div>

@@ -37,6 +37,10 @@ header {
     color: white;
 }
 
+.portrait {
+  width: 200px;
+}
+
 .profile-image {
   height: 50vh;
 }

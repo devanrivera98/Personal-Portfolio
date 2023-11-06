@@ -71,23 +71,19 @@ export default function Header() {
               <li>
                 <Link onClick={handleMobileToggleClick} to="projects" spy={true}
                 smooth={true}
-                offset={50}
+                offset={-110}
                 duration={500} className="hover:underline" href="#">Projects
                 </Link>
               </li>
               <li>
                 <Link onClick={handleMobileToggleClick} to="contact" spy={true}
                 smooth={true}
-                offset={50}
+                offset={100}
                 duration={500} className="hover:underline" href="#">Contact
                 </Link>
               </li>
               <li>
-                <Link onClick={handleMobileToggleClick} to="/" spy={true}
-                smooth={true}
-                offset={50}
-                duration={500} className="hover:underline" href="#">Download CV
-                </Link>
+                <a className="md:px-5 md:py-1 mx-0 flex justify-center items-center border-2 border-lightGreen hover:bg-green-400 hover:text-white rounded text-lightGreen">Resume</a>
               </li>
             </ul>
           </nav>

@@ -6,7 +6,7 @@ export default function MyProjects() {
     </div>
     <div className="flex flex-wrap justify-evenly">
       <div className="sm:w-1/3 border-4 border-blue-200 m-5 rounded">
-          <h2 className="text-2xl  bg-lightGreen">BookPalace</h2>
+          <h2 className="text-2xl pl-1 bg-lightBlue">BookPalace</h2>
           <div className="h-52 md:h-64">
             <img className="w-full h-full object-cover" src="book-store-photo.png" />
         </div>
@@ -20,7 +20,7 @@ export default function MyProjects() {
         </div>
       </div>
       <div className="sm:w-1/3 border-4 border-blue-200 m-5 rounded">
-        <h2 className="text-2xl bg-lightBlue">WatchList</h2>
+        <h2 className="text-2xl pl-1 bg-lightBlue">WatchList</h2>
         <div className="h-52 md:h-64">
             <img className="w-full h-full object-cover" alt="hollywood-photo" src="hollywood-image.png" />
         </div>

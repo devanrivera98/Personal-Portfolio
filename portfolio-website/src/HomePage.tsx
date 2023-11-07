@@ -1,5 +1,6 @@
 import AboutSection from "./AboutSection"
 import ContactForm from "./ContactForm"
+import MyFooter from "./MyFooter"
 import MyProjects from "./MyProjects"
 export default function HomePage() {
 
@@ -7,7 +8,7 @@ export default function HomePage() {
 
   return (
     <div id="home">
-      <div className="background-style text-start pt-5 mx-auto flex justify-center md:flex-row">
+      <div id="home-1" className="background-style text-start pt-5 mx-auto flex justify-center md:flex-row">
         <div className="w-1/2 custom-homepage">
           <h1 className="text-xl text-lightGreen pb-3">Hello, my name is</h1>
           <p className="md:text-5xl text-3xl pb-3">Devan Rivera.</p>
@@ -36,6 +37,7 @@ export default function HomePage() {
       <AboutSection/>
       <MyProjects/>
       <ContactForm/>
+      <MyFooter/>
     </div>
   )
 }

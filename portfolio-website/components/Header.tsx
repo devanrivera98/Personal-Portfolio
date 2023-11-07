@@ -45,18 +45,23 @@ export default function Header() {
       <header className="header-background bg-darkBlue text-lightBlue">
         <div className="container">
           <div>
-            <h2 className="text-2xl logo hover:underline">DevPort</h2>
+            {/* <h2 className="text-2xl logo hover:underline">DevPort</h2> */}
+            <Link to="home" spy={true}
+              smooth={true}
+              // offset={1000}
+              duration={500}
+              className="hover:underline text-2xl logo block" href="#">DevPort</Link>
             <div onClick={handleNavToggleClick} className="nav-toggle" id="navToggle">
               <img id="hamburger" className={isOpen ? "hidden" : ""} src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg" alt="hamburger-menu" />
-              <img className={isOpen ? "" : "hidden"} src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg" alt="hamburger-menu" />
+              <img id="close-icon" className={isOpen ? "" : "hidden"} src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg" alt="hamburger-menu" />
             </div>
           </div>
           <nav className={isOpen ? "open" : ""}>
             <ul>
               <li>
-                <Link onClick={handleMobileToggleClick} to="home" spy={true}
+                <Link onClick={handleMobileToggleClick} to="home-1" spy={true}
                 smooth={true}
-                // offset={50}
+                offset={windowWidth > 767 ? 0 : -1000}
                 duration={500}
                 className="hover:underline" href="#">Home
                 </Link>
@@ -64,30 +69,26 @@ export default function Header() {
               <li>
                 <Link onClick={handleMobileToggleClick} to="about" spy={true}
                 smooth={true}
-                offset={-100}
+                offset={windowWidth > 767 ? -100 :-950}
                 duration={500} className="hover:underline" href="#">About
                 </Link>
               </li>
               <li>
                 <Link onClick={handleMobileToggleClick} to="projects" spy={true}
                 smooth={true}
-                offset={50}
+                offset={windowWidth > 767 ? -110 : -950}
                 duration={500} className="hover:underline" href="#">Projects
                 </Link>
               </li>
               <li>
                 <Link onClick={handleMobileToggleClick} to="contact" spy={true}
                 smooth={true}
-                offset={50}
+                offset={100}
                 duration={500} className="hover:underline" href="#">Contact
                 </Link>
               </li>
               <li>
-                <Link onClick={handleMobileToggleClick} to="/" spy={true}
-                smooth={true}
-                offset={50}
-                duration={500} className="hover:underline" href="#">Download CV
-                </Link>
+                <a className="md:px-5 md:py-1 mx-0 flex justify-center items-center border-2 border-lightGreen hover:bg-green-400 hover:text-white rounded text-lightGreen" href="https://flowcv.com/resume/chbnor1vje" target="_blank" rel="noopener noreferrer">Resume</a>
               </li>
             </ul>
           </nav>

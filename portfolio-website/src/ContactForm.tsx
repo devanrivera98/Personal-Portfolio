@@ -7,10 +7,10 @@ export default function ContactForm () {
 
   console.log(name, email, message)
   return (
-    <div className="bg-lightBlue pb-5">
+    <div id="contact" className="bg-lightBlue pb-5">
       <h1 className="text-3xl text-center py-5">Contact Me</h1>
       <div className="md:items-center">
-        <form className="flex flex-col gap-5 md:w-1/2 lg:w-1/3 mx-auto" name="react-contact-form" method="POST" >
+        <form className="flex flex-col gap-5 md:w-1/2 lg:w-1/3 md:mx-auto mx-10 bg-gray-200 rounded py-4" name="react-contact-form" method="POST" >
           <input type="hidden" name="form-name" value="contact"></input>
           <div className="input flex flex-col">
             <label className="ml-5 pb-1" htmlFor="name">Name</label>

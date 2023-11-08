@@ -2,6 +2,7 @@
 import { Outlet } from "react-router-dom"
 import { useState, useEffect } from "react"
 import { Link } from "react-scroll";
+import { Helmet } from 'react-helmet-async';
 
 
 export default function Header() {
@@ -43,6 +44,11 @@ export default function Header() {
   return (
     <>
       <header className="header-background bg-darkBlue text-lightBlue">
+        <Helmet>
+          <title>Devan Rivera's Resume</title>
+          <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+          <meta></meta>
+        </Helmet>
         <div className="container">
           <div>
             {/* <h2 className="text-2xl logo hover:underline">DevPort</h2> */}

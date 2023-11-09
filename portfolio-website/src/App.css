@@ -9,7 +9,8 @@ header {
   /* background-color: rgb(50, 47, 47); */
   background-color: white;
   position: sticky;
-  top: 0px;
+  position: -webkit-sticky;
+  top: -1px;
   z-index: 1;
 }
 

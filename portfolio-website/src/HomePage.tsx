@@ -11,9 +11,25 @@ export default function HomePage() {
     <>
     <div id="home">
         <Helmet>
-          <title>Devan Rivera's Resume</title>
+          {/* <!-- Primary Meta Tags --> */}
+          <title>Devan Rivera's Portfolio</title>
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-          <meta></meta>
+          <meta name="title" content="Devan Rivera's Portfolio" />
+          <meta name="description" content="Welcome to my personal portfolio! Explore my projects and feel free to get in touch. I'm excited to share my work with you – take a look!" />
+
+          {/* <!-- Open Graph / Facebook --> */}
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://devanrivera.netlify.app/" />
+          <meta property="og:title" content="Devan Rivera's Portfolio" />
+          <meta property="og:description" content="Welcome to my personal portfolio! Explore my projects and feel free to get in touch. I'm excited to share my work with you – take a look!" />
+          <meta property="og:image" content="/meta-image.png" />
+
+          {/* <!-- Twitter --> */}
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://devanrivera.netlify.app/" />
+          <meta property="twitter:title" content="Devan Rivera's Portfolio" />
+          <meta property="twitter:description" content=" Welcome to my personal portfolio! Explore my projects and feel free to get in touch. I'm excited to share my work with you – take a look!" />
+          <meta property="twitter:image" content="/meta-image.png" />
         </Helmet>
       <div id="home-1" className="background-style text-start pt-5 mx-auto flex justify-center md:flex-row">
         <div className="w-1/2 custom-homepage">

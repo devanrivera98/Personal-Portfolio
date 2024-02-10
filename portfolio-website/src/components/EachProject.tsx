@@ -1,4 +1,4 @@
-export default function EachProduct(title:string, image:string, url:string, description:string ) {
+export default function EachProject({ title, image, url, description } : {title:string, image:string, url:string, description:string }) {
 
 
     return (
@@ -8,7 +8,7 @@ export default function EachProduct(title:string, image:string, url:string, desc
           <div className="h-52 md:h-64">
             <img className="w-full h-full object-cover" src={image} />
           </div>
-          <div className="px-2">
+          <div className="px-4">
             <div className="py-3 flex justify-center">
               <a href={url} target="_blank" rel="noopener noreferrer">
                 <button className="border border-lightGreen hover:bg-green-400 hover:text-white text-lightGreen rounded p-1">Link to Delopyment</button>

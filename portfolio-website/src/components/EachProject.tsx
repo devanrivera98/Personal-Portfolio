@@ -15,6 +15,24 @@ export default function EachProject({ title, image, url, description } : {title:
               </a>
             </div>
             <p className="text-center">{description}</p>
+            <div className="flex py-3 flex-wrap justify-evenly">
+              <div className="pill-button w-1/4">
+                <p>React</p>
+              </div>
+              <div className="pill-button w-1/4">
+                <p>React</p>
+              </div>
+              <div className="pill-button w-1/4">
+                <p>React</p>
+              </div>
+              <div className="pill-button w-1/4">
+                <p>React</p>
+              </div>
+              <div className="pill-button w-1/4">
+                <p>React</p>
+              </div>
+
+            </div>
           </div>
         </div>
       </>

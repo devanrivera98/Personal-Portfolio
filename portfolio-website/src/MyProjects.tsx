@@ -16,7 +16,7 @@ export default function MyProjects() {
                 <button className="border border-lightGreen hover:bg-green-400 hover:text-white text-lightGreen rounded p-1">Link to Delopyment</button>
               </a>
             </div>
-            <p>Bookplace offers a seamless and immersive online bookstore experience, allowing users to effortlessly browse an extensive collection of books, fostering informed choices through a user-friendly review system. The platform also includes convenient features like a shopping cart and wishlist, enhancing the overall experience of discovering and acquiring favorite reads.</p>
+            <p className="text-center">Bookplace offers a seamless and immersive online bookstore experience, allowing users to effortlessly browse an extensive collection of books, fostering informed choices through a user-friendly review system. The platform also includes convenient features like a shopping cart and wishlist, enhancing the overall experience of discovering and acquiring favorite reads.</p>
         </div>
       </div>
       <div className="md:w-1/3 border-4 border-blue-200 m-5 rounded">
@@ -30,7 +30,7 @@ export default function MyProjects() {
                 <button className="border border-lightGreen hover:bg-green-400 hover:text-white text-lightGreen  rounded p-1">Link to Delopyment</button>
             </a>
           </div>
-            <p>WatchList is a dynamic front-end application showcasing my adept use of CSS classes, seamlessly integrating JavaScript and local storage for a user-friendly experience in exploring a curated movie catalog. Users can effortlessly search, discover details, and add movies to their personalized list, enhancing navigation for a dynamic and engaging exploration.</p>
+            <p className="text-center">WatchList is a dynamic front-end application showcasing my adept use of CSS classes, seamlessly integrating JavaScript and local storage for a user-friendly experience in exploring a curated movie catalog. Users can effortlessly search, discover details, and add movies to their personalized list, enhancing navigation for a dynamic and engaging exploration.</p>
         </div>
       </div>
     </div>

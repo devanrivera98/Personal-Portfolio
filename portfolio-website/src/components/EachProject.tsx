@@ -1,6 +1,13 @@
-export default function EachProject({ title, image, url, description } : {title:string, image:string, url:string, description:string }) {
+export default function EachProject({ title, image, url, description, skills } : {title:string, image:string, url:string, description:string, skills: string[] }) {
 
-
+  let skillMap = null;
+  if (skills) {
+    skillMap = skills.map((skill, index) =>
+      <div id={String(index)} className="pill-button lg:w-1/4  md:w-1/3 w-1/4">
+        <p>{skill}</p>
+      </div>
+    )
+  }
     return (
       <>
         <div className="md:w-1/3 border-4 border-blue-200 m-5 rounded flex flex-col">
@@ -16,22 +23,7 @@ export default function EachProject({ title, image, url, description } : {title:
             </div>
             <p className="text-center">{description}</p>
             <div className="flex py-3 flex-wrap justify-evenly my-auto">
-              <div className="pill-button lg:w-1/4  md:w-1/3 w-1/4">
-                <p>React</p>
-              </div>
-              <div className="pill-button lg:w-1/4  md:w-1/3 w-1/4">
-                <p>React</p>
-              </div>
-              <div className="pill-button lg:w-1/4  md:w-1/3 w-1/4">
-                <p>React</p>
-              </div>
-              <div className="pill-button lg:w-1/4  md:w-1/3 w-1/4">
-                <p>React</p>
-              </div>
-              <div className="pill-button lg:w-1/4  md:w-1/3 w-1/4">
-                <p>React</p>
-              </div>
-
+              {skillMap}
             </div>
           </div>
         </div>

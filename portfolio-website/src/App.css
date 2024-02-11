@@ -126,6 +126,10 @@ li {
   text-align: center;
 }
 
+.pill-text {
+  font-size: 11px;
+}
+
 @media all and (max-width: 767px) {
   .container {
     flex-direction: column;

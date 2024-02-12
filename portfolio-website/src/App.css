@@ -114,6 +114,21 @@ li {
   font-size: 20px;
 }
 
+.pill-button {
+  padding: 6px 8px;
+  margin: 6px 4px;
+  border: #68C3C7 2px solid;
+  border-radius: 20px;
+  border-color: #68C3C7;
+  color:#68C3C7;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pill-text {
+  font-size: 12px;
+}
+
 @media all and (max-width: 767px) {
   .container {
     flex-direction: column;

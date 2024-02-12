@@ -3,7 +3,7 @@ export default function EachProject({ title, image, url, description, skills } :
   let skillMap = null;
   if (skills) {
     skillMap = skills.map((skill, index) =>
-      <div id={String(index)} className="pill-button lg:w-1/4  md:w-1/3 w-1/4 flex justify-center items-center">
+      <div id={String(index)} className="pill-button flex justify-center  items-center">
         <p className="pill-text">{skill}</p>
       </div>
     )

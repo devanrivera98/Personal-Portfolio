@@ -115,8 +115,7 @@ li {
 }
 
 .pill-button {
-  display: inline-block;
-  padding: 4px 8px;
+  padding: 6px 8px;
   margin: 6px 4px;
   border: #68C3C7 2px solid;
   border-radius: 20px;
@@ -127,7 +126,7 @@ li {
 }
 
 .pill-text {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 @media all and (max-width: 767px) {

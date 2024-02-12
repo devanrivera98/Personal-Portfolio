@@ -33,7 +33,6 @@ export default function HomePage() {
       </div>
       <AboutSection/>
       <MyProjects/>
-      <ContactForm/>
       <TechSkills />
       <MyFooter/>
     </div>

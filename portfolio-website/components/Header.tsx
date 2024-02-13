@@ -50,7 +50,7 @@ export default function Header() {
               smooth={true}
               // offset={1000}
               duration={500}
-              className="hover:underline text-2xl logo block" href="#">DevPort</Link>
+              className="hover:underline text-2xl logo block" href="#">Devan Rivera</Link>
             <div onClick={handleNavToggleClick} className="nav-toggle" id="navToggle">
               <img id="hamburger" className={isOpen ? "hidden" : ""} src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg" alt="hamburger-menu" />
               <img id="close-icon" className={isOpen ? "" : "hidden"} src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg" alt="hamburger-menu" />
@@ -81,14 +81,14 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link onClick={handleMobileToggleClick} to="contact" spy={true}
+                <Link onClick={handleMobileToggleClick} to="skills" spy={true}
                 smooth={true}
-                offset={100}
-                duration={500} className="hover:underline" href="#">Contact
+                offset={windowWidth > 767 ? -100 : -950}
+                duration={500} className="hover:underline" href="#">Skills
                 </Link>
               </li>
               <li>
-                <a className="md:px-5 md:py-1 mx-0 flex justify-center items-center border-2 border-lightGreen hover:bg-green-400 hover:text-white rounded text-lightGreen" href="https://flowcv.com/resume/chbnor1vje" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a className="md:px-5 md:py-1 mx-0 flex justify-center items-center border-2 border-lightGreen hover:bg-green-400 hover:text-white rounded text-lightGreen" href="Devan-Rivera-Resume-2024.pdf" download target="_blank" rel="noopener noreferrer">Resume</a>
               </li>
             </ul>
           </nav>

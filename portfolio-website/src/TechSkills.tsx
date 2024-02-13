@@ -5,9 +5,9 @@ export default function TechSkills() {
     <>
     <div className="bg-lightBlue py-5">
         <div id="skills" className="flex justify-center text-3xl">
-          <h2>Technical Skills</h2>
+          <h2 className="underline underline-offset-4">Technical Skills</h2>
         </div>
-        <div className="w-2/3 flex flex-wrap justify-center mx-auto pt-5">
+        <div className="w-4/5 sm:w-2/3 flex flex-wrap justify-center mx-auto pt-5">
           <EachSkill image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" doc="https://react.dev/" title="React" />
           <EachSkill image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" title="JavaScript" doc="https://developer.mozilla.org/en-US/docs/Web/JavaScript" />
           <EachSkill image="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" title="TypeScript" doc="https://www.typescriptlang.org/docs/"/>

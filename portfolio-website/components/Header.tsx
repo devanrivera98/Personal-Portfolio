@@ -81,10 +81,10 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link onClick={handleMobileToggleClick} to="contact" spy={true}
+                <Link onClick={handleMobileToggleClick} to="skills" spy={true}
                 smooth={true}
-                offset={100}
-                duration={500} className="hover:underline" href="#">Contact
+                offset={windowWidth > 767 ? -100 : -950}
+                duration={500} className="hover:underline" href="#">Skills
                 </Link>
               </li>
               <li>

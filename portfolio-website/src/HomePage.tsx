@@ -1,5 +1,4 @@
 import AboutSection from "./AboutSection"
-import ContactForm from "./ContactForm"
 import MyFooter from "./MyFooter"
 import MyProjects from "./MyProjects"
 import TechSkills from "./TechSkills"

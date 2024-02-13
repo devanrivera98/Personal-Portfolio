@@ -3,8 +3,8 @@ import EachSkill from "./components/EachSkill"
 export default function TechSkills() {
   return (
     <>
-    <div className="bg-lightBlue">
-        <div className="flex justify-center text-3xl">
+    <div className="bg-lightBlue py-5">
+        <div id="skills" className="flex justify-center text-3xl">
           <h2>Technical Skills</h2>
         </div>
         <div className="w-2/3 flex flex-wrap justify-center mx-auto pt-5">

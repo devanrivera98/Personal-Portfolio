@@ -18,7 +18,7 @@ export default function EachProject({ title, image, url, description, skills } :
           <div className="px-4 flex flex-col flex-1">
             <div className="py-3 flex justify-center">
               <a href={url} target="_blank" rel="noopener noreferrer">
-                <button className="border border-lightGreen hover:bg-green-400 hover:text-white text-lightGreen rounded p-1">Link to Delopyment</button>
+                <button className="border border-lightGreen hover:bg-green-400 hover:text-white text-lightGreen rounded p-1">Link to Deployment</button>
               </a>
             </div>
             <p className="text-center">{description}</p>

@@ -9,9 +9,9 @@ export default function AboutSection() {
             <img className=" portrait" src="portrait.JPG" alt="portrait photo" />
           </div>
           <div className="md:w-2/3 w-3/4 mx-auto md:pt-0 text-center md:text-start">
-            <p className="md:mx-9 about-text">Hello! I'm Devan Rivera, a software engineer who never backs down from a challenge.  As a software engineer, my passion for tackling complex problems and crafting innovative solutions has been the driving force behind my journey. I thrive of the opportunity of being able to dive into projects and technologies that expand my comprehension of software engineering. Whether its learning a new framework or picking up a new tool, I am enthusiastic on being able to continuously learn about the tech landscape. </p>
-            <p className="md:mx-9 about-text pt-3">Looking ahead, I am excited about the prospect of channeling my skills and enthusiasm into a dynamic team. I believe in fostering collaboration and leveraging collective expertise to drive impactful results. </p>
-            <p className="md:mx-9 about-text pt-3">Feel free to explore my projects, where you'll find evidence of my problem-solving abilities and innovative mindset. Don't hesitate to reach out—I'm always open to new opportunities and collaborations! </p>
+            <p className="md:mx-9 about-text">Hello!I'm Devan Rivera, a software engineer who never backs down from a challenge. My passion for tackling complex problems and crafting innovative solutions has been the driving force behind my journey. I thrive on the opportunity to dive into projects and technologies that expand my comprehension of software engineering. Whether it's learning a new framework or picking up a new tool, I am committed to continuously learning about the tech landscape. </p>
+            <p className="md:mx-9 about-text pt-3">Looking ahead, I am eager to channel my skills and enthusiasm into a dynamic team. I believe in fostering collaboration and leveraging collective expertise to drive impactful results. My approach to problem-solving is methodical and creative, allowing me to navigate and resolve intricate issues effectively.</p>
+            <p className="md:mx-9 about-text pt-3">Feel free to explore my projects, where you'll find evidence of my problem-solving abilities and innovative mindset. Don't hesitate to reach out—I'm always open to new opportunities and collaborations!</p>
           </div>
         </div>
       </div>

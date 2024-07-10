@@ -2,7 +2,7 @@ export default function EachSkill({image, title, doc}: {image:string, title:stri
   return (
     <>
       <div className="bg-white lg:w-2/12 sm:w-auto w-2/5 rounded-xl flex flex-col items-center m-3">
-        <div className="p-2 h-44 lg:h-auto">
+        <div className="p-2 h-44">
           <a href={doc} target="_blank" rel="noopener noreferrer">
             <img className="w-full h-full" src={image} />
           </a>

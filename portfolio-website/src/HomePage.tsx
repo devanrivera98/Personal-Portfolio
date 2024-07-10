@@ -20,7 +20,7 @@ export default function HomePage() {
             <img src="tailwind.png" />
             <img src="typescript.png"/>
           </div>
-            <p className="py-5 md:mr-20 text-center md:text-start text-2xl">I am a Los Angeles-based Front End Developer skilled in building user-centric interfaces with React, showcasing diverse personal and freelance projects.</p>
+            <p className="py-5 md:mr-20 text-center md:text-start text-2xl">I am a Los Angeles based Front End Developer skilled in building user-centric interfaces with React, showcasing diverse personal and freelance projects.</p>
           <div className="flex justify-center md:justify-start pt-5 pb-5 md:pb-0 w-full homepage-icons">
               <a className="px-5 flex items-center border-2 border-lightGreen hover:bg-green-400 hover:text-white rounded text-lightGreen h-12" href="Devan-Rivera-Resume-2024.pdf" download target="_blank" rel="noopener noreferrer">Resume</a>
             <div className="flex w-12 mx-2">

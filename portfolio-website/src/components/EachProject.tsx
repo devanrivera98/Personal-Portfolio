@@ -11,7 +11,7 @@ export default function EachProject({ title, image, url, description, skills } :
     return (
       <>
         <div className="lg:w-1/3 md:w-2/3 border-4 border-blue-200 m-5 rounded flex flex-col">
-          <h2 className="text-2xl pl-1 bg-lightBlue">{title}</h2>
+          <h2 className="text-2xl lg:text-xl xl:text-2xl pl-1 bg-lightBlue">{title}</h2>
           <div className="h-52 md:h-64">
             <img className="w-full h-full object-cover" src={image} />
           </div>
